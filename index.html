@@ -32,7 +32,7 @@
 
   <script>var youtubeVideos = [];</script>
 <!-- another file that i'm gonna host locally. this is the remote version, in case i need to revert:  <script src="https://scripts.assets-landingi.com/video-bg/v0.4/videoBackground.js"></script> -->
-<script src="script/video-bg.js"></script>
+<script src="script/video-bg-v0.4.js"></script>
 
 <!-- check all files up to this point and make sure they're not hosted by landingi anymore-->
 
@@ -318,9 +318,10 @@
 <script type="text/javascript" src="old-local-assets/assets/js/vendor/jquery-form/jquery.form.min.js"></script>
 <script type="text/javascript" src="old-local-assets/assets/js/landend/140618-2/landend.js"></script>
 <script type="text/javascript" src="old-local-assets/assets/js/landend/180918/validation.js"></script>
+<!-- local hosted end -->
+
 <script>$(function(){$("body").append('<img src="https://analytics.landingi.com/track/341379" alt="" style="display:none;">');});</script>
 <script>
-<!-- Self hosted end-->
 
     var tag = document.createElement('script');
     tag.src = "https://www.youtube.com/iframe_api";
@@ -365,7 +366,12 @@
         });
     }
 </script>
-<script src="https://scripts.assets-landingi.com/video-bg/v0.5/videoBackground.js"></script>
+<!-- Landingi-hosted version
+script src="https://scripts.assets-landingi.com/video-bg/v0.5/videoBackground.js"></script>
+-->
+<!-- Local hosted version BEGINNING. Rename scripts.assets-landingi.com -> local-scripts -->
+<script src="script/video-bg-v0.5.js"></script>
+<!-- Local hosted version END-->
 <img src="https://analytics.landingi.com/track/341379" alt="" style="display:none;">
 </body>
 </html>
